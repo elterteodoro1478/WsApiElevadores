@@ -24,7 +24,6 @@ namespace WsElevadores.Controllers
         {
             return new ElevadorService().elevadorMaisFrequentado();
         }
-
         
         [HttpGet]
         [Route("api/elevadorMenosFrequentado")]
@@ -53,7 +52,6 @@ namespace WsElevadores.Controllers
         {
             return new ElevadorService().percentualDeUsoElevadorC();
         }
-
 
         [HttpGet]
         [Route("api/percentualDeUsoElevadorD")]
